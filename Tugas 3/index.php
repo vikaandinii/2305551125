@@ -16,7 +16,7 @@ try {
     exit();
 }
 
-// Fungsi untuk melihat status AC
+// Fungsi yang digunakan untuk melihat status AC
 function kontrol_ac($suhu, $kelembapan) {
     if ($suhu < 18 && $kelembapan < 40) {
         return "AC Mati";
